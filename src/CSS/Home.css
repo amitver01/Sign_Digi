@@ -1,0 +1,11 @@
+.text-lg {
+    font-size: 1.5rem;
+  }
+  
+  .md:text-2xl {
+    font-size: 2rem;
+  }
+  
+  .lg:text-3xl {
+    font-size: 3rem;
+  }
