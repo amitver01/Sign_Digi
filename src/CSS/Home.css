@@ -9,3 +9,21 @@
   .lg:text-3xl {
     font-size: 3rem;
   }
+  .max-w-md {
+    max-width: 32rem;
+  }
+  .bg-zinc-600 {
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .bg-zinc-600 h2 {
+      font-size: 1.5em;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .bg-zinc-600 h2 {
+      font-size: 1.2em;
+    }
+  }
