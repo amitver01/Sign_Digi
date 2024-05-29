@@ -18,9 +18,7 @@ function Home() {
         </Link>
         <Link to="/text" className="hover:opacity-80">
           <div className="lg:w-1/2 md:w-3/4 sm:w-full bg-zinc-600 text-white shadow-xl font-mono rounded-lg border-black border-solid p-6 text-center">
-            <div className=" w-32 h-32 mx-auto mb-3 rounded-lg flex justify-center items-center">
-              <img src={key} alt="Key Image" className="w-full h-auto object-cover bg-zinc-600" />
-            </div>
+           
             <h2 className="bg-zinc-600  text-lg md:text-2xl lg:text-3xl">Type your name </h2>
           </div>
         </Link>
